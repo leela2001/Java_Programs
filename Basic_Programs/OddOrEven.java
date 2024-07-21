@@ -24,6 +24,18 @@ public class OddOREven {
  		
 		String oddOrEven = number % 2 == 0 ? "Even" : "Odd" ;
 		System.out.println(oddOrEven);
+
+
+		// 3Rd method
+		
+		if((number&1)==0)
+		{
+			System.out.println("Even");
+		}
+		else
+		{
+			System.out.println("odd");
+		}
 		
 	}
 	
